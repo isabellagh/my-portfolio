@@ -2,6 +2,7 @@ import Navbar from "./components/header/Navbar";
 import About from "./components/body/about/About";
 import Projects from "./components/body/projects/Projects";
 import Skills from "./components/body/skills/Skills";
+import "./app.scss"
 
 function App() {
   return (
