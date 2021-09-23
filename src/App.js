@@ -1,18 +1,11 @@
-import Navbar from "./components/header/Navbar";
-import About from "./components/body/about/About";
-import Projects from "./components/body/projects/Projects";
-import Skills from "./components/body/skills/Skills";
-import "./app.scss"
+import React from "react";
+import Navbar from "./components/Navbar/Navbar";
+import "./app.css"
 
 function App() {
   return (
-    <div className="app">
+    <div>
       <Navbar />
-      <div className="sections">
-        <About />
-        <Projects />
-        <Skills />
-      </div>
     </div>
   );
 }
