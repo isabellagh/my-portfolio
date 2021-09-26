@@ -1,7 +1,14 @@
 import React from "react";
-import { SideBarContainer, Icon, CloseIcon, SideBarWrapper, SideBarMenu, SideBarLink } from "./SideBarElements";
+import {
+  SideBarContainer,
+  Icon,
+  CloseIcon,
+  SideBarWrapper,
+  SideBarMenu,
+  SideBarLink,
+} from "./SideBarElements";
 
-const SideBar = ({isOpen, toggle}) => {
+const SideBar = ({ isOpen, toggle }) => {
   return (
     <SideBarContainer isOpen={isOpen} onClick={toggle}>
       <Icon onClick={toggle}>
@@ -9,11 +16,21 @@ const SideBar = ({isOpen, toggle}) => {
       </Icon>
       <SideBarWrapper>
         <SideBarMenu>
-          <SideBarLink to="about" onClick={toggle}>About</SideBarLink>
-          <SideBarLink to="projects" onClick={toggle}>Projects</SideBarLink>
-          <SideBarLink to="skills" onClick={toggle}>Skills</SideBarLink>
-          <SideBarLink to="experience" onClick={toggle}>Experience</SideBarLink>
-          <SideBarLink to="contact" onClick={toggle}>Contact</SideBarLink>
+          <SideBarLink to="about" onClick={toggle}>
+            About
+          </SideBarLink>
+          <SideBarLink to="projects" onClick={toggle}>
+            Projects
+          </SideBarLink>
+          <SideBarLink to="skills" onClick={toggle}>
+            Skills
+          </SideBarLink>
+          <SideBarLink to="experience" onClick={toggle}>
+            Experience
+          </SideBarLink>
+          <SideBarLink to="contact" onClick={toggle}>
+            Contact
+          </SideBarLink>
         </SideBarMenu>
       </SideBarWrapper>
     </SideBarContainer>
