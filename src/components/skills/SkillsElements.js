@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const ProjectContainer = styled.div`
+export const SkillContainer = styled.div`
   height: 800px;
   display: flex;
   flex-direction:column;
@@ -16,7 +16,7 @@ export const ProjectContainer = styled.div`
   }
 `
 
-export const ProjectWrapper = styled.div`
+export const SkillWrapper = styled.div`
   max-width: 1000px;
   margin: 0 auto;
   display: grid;
@@ -34,7 +34,7 @@ export const ProjectWrapper = styled.div`
   }
 `
 
-export const ProjectCard = styled.div`
+export const SkillCard = styled.div`
   background: #fff;
   display: flex;
   flex-direction: column;
@@ -53,13 +53,13 @@ export const ProjectCard = styled.div`
   }
 `
 
-export const ProjectsImg = styled.img`
+export const SkillsImg = styled.img`
   height: 160px;
   width: 160px;
   margin-bottom: 10px;
 `
 
-export const ProjectsH1 = styled.h1`
+export const SkillsH1 = styled.h1`
   font-size: 2.5rem;
   color: #fff;
   margin-top: 64px;
@@ -70,12 +70,12 @@ export const ProjectsH1 = styled.h1`
   }
 `
 
-export const ProjectsH2 = styled.h1`
+export const SkillsH2 = styled.h1`
   font-size: 1rem;
   margin-bottom: 10px;
 `
 
-export const ProjectsP = styled.p`
+export const SkillsP = styled.p`
   font-size: 1rem;
   text-align: center;
 `
