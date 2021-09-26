@@ -6,6 +6,7 @@ import Projects from "../components/projects"
 import Skills from "../components/skills"
 import Experience from "../components/experience"
 import Contact from "../components/contact"
+import Body from "../components/body";
 
 const Home = () => {
     const [isOpen, setIsOpen] = useState(false)
@@ -19,6 +20,7 @@ const Home = () => {
       <SideBar isOpen={isOpen} toggle={toggle} />
       <Navbar toggle={toggle}/>
       <About />
+      <Body />
       <Projects />
       <Skills />
       <Experience />
