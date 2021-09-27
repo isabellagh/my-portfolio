@@ -1,5 +1,5 @@
 import React from "react";
-import { Button } from "react-scroll";
+// import { Button } from "../ButtonElements";
 import {
   BodyContainer,
   BodyWrapper,
@@ -15,25 +15,26 @@ import {
   Img,
 } from "./BodyElements";
 
-const Body = () => {
+const Body = (lightBg,id,imgStart,topLine,lightText,headline,darkText,description, img, alt) => {
   return (
     <>
-      <BodyContainer>
+      <BodyContainer lightBg={lightBg} id={id}>
+      <h1> hello</h1>
         <BodyWrapper>
-          <BodyRow>
+          <BodyRow imgStart={imgStart}>
             <Column1>
               <TextWrapper>
-                <TopLine>TopLine</TopLine>
-                <Heading>Heading</Heading>
-                <Subtitle>Subtitle</Subtitle>
+                <TopLine>{topLine}</TopLine>
+                <Heading lightText={lightText}>{headline}</Heading>
+                <Subtitle darkText={darkText}>{description}</Subtitle>
                 <BtnWrap>
-                  {/* <Button to="home" /> */}
+                  {/* <Button to="home" >{buttonLabel}<Button /> */}
                 </BtnWrap>
               </TextWrapper>
             </Column1>
             <Column2>
               <ImgWrap>
-                <Img />
+                <Img src={img} alt={alt}/>
               </ImgWrap>
             </Column2>
           </BodyRow>
