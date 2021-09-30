@@ -14,12 +14,15 @@ import {
   ImgWrap,
   Img,
 } from "./BodyElements";
+// import Projects from './../projects/index'
+// import Skills from './../skills/index'
 
 const Body = (lightBg,id,imgStart,topLine,lightText,headline,darkText,description, img, alt) => {
   return (
     <>
       <BodyContainer lightBg={lightBg} id={id}>
-      <h1> hello</h1>
+      {/* <Projects /> */}
+      {/* <Skills /> */}
         <BodyWrapper>
           <BodyRow imgStart={imgStart}>
             <Column1>
