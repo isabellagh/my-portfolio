@@ -16,27 +16,25 @@ const Projects = () => {
         <ProjectsH1>Projects</ProjectsH1>
         <ProjectWrapper>
           <ProjectCard>
-            <ProjectsImg src="https://images.pexels.com/photos/5894435/pexels-photo-5894435.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" />
+            <ProjectsImg src={require("../../../src/images/soccer.png").default} />
             <ProjectsH2>Soccer Star</ProjectsH2>
             <ProjectsP>
-              "A place where you can add your favorite soccer players and rate
-              them. "
+              A place where you can add your favorite soccer players and rate
+              them.
             </ProjectsP>
           </ProjectCard>
           <ProjectCard>
-            <ProjectsImg src="https://images.pexels.com/photos/5894435/pexels-photo-5894435.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" />
-            <ProjectsH2>Soccer Star</ProjectsH2>
+            <ProjectsImg src={require("../../../src/images/kids.png").default} />
+            <ProjectsH2>TCC</ProjectsH2>
             <ProjectsP>
-              "A place where you can add your favorite soccer players and rate
-              them. "
+            A daycare data organizer.
             </ProjectsP>
           </ProjectCard>
           <ProjectCard>
-            <ProjectsImg src="https://images.pexels.com/photos/5894435/pexels-photo-5894435.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" />
-            <ProjectsH2>Soccer Star</ProjectsH2>
+            <ProjectsImg src={require("../../../src/images/personal-trainer.png").default} />
+            <ProjectsH2>PT Space</ProjectsH2>
             <ProjectsP>
-              "A place where you can add your favorite soccer players and rate
-              them. "
+              A place where Personal Traniers can keep track of their clients and also people can find and contact trainers.
             </ProjectsP>
           </ProjectCard>
         </ProjectWrapper>
@@ -44,5 +42,6 @@ const Projects = () => {
     </>
   );
 };
+
 
 export default Projects;
