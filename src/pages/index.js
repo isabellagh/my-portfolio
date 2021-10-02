@@ -8,6 +8,7 @@ import Skills from "../components/skills"
 // import Contact from "../components/contact"
 // import Body from "../components/body";
 // import { homeObjOne } from "../components/body/Data";
+import Footer from "../components/footer";
 
 const Home = () => {
     const [isOpen, setIsOpen] = useState(false)
@@ -26,7 +27,8 @@ const Home = () => {
       <Skills />
       {/* <Experience /> */}
       {/* <Contact /> */}
-      {/* <Footer /> */}
+      <Footer />
+      <p>footer</p>
     </>
   );
 };

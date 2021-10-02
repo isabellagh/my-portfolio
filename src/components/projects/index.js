@@ -33,7 +33,7 @@ const Projects = () => {
             />
             <ProjectsH2>TCC</ProjectsH2>
             <ProjectsP>
-              <p>A daycare data organizer.</p>
+              <p>A place for daycare directors to keep track of their classrooms and children.</p>
             </ProjectsP>
           </ProjectCard>
           <ProjectCard>
@@ -43,8 +43,8 @@ const Projects = () => {
             <ProjectsH2>PT Space</ProjectsH2>
             <ProjectsP>
               <p>
-                A place where Personal Traniers can keep track of their clients
-                and also people can find and contact trainers.
+                An app where Personal Trainers can organize their client's info
+                and where to find a trainer.
               </p>
             </ProjectsP>
           </ProjectCard>
