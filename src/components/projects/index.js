@@ -17,7 +17,7 @@ const Projects = () => {
         <ProjectWrapper>
           <ProjectCard>
             <ProjectsImg
-              src={require("../../../src/images/soccer.png").default}
+              src={require("../../../src/images/projects-icons/soccer.png").default}
             />
             <ProjectsH2>Soccer Star</ProjectsH2>
             <ProjectsP>
@@ -29,7 +29,7 @@ const Projects = () => {
           </ProjectCard>
           <ProjectCard>
             <ProjectsImg
-              src={require("../../../src/images/kids.png").default}
+              src={require("../../../src/images/projects-icons/kids.png").default}
             />
             <ProjectsH2>TCC</ProjectsH2>
             <ProjectsP>
@@ -38,7 +38,7 @@ const Projects = () => {
           </ProjectCard>
           <ProjectCard>
             <ProjectsImg
-              src={require("../../../src/images/personal-trainer.png").default}
+              src={require("../../../src/images/projects-icons/personal-trainer.png").default}
             />
             <ProjectsH2>PT Space</ProjectsH2>
             <ProjectsP>

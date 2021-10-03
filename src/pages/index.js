@@ -28,7 +28,7 @@ const Home = () => {
       {/* <Experience /> */}
       {/* <Contact /> */}
       <Footer />
-      <p>footer</p>
+      
     </>
   );
 };

@@ -35,7 +35,7 @@ export const ProjectWrapper = styled.div`
 `
 
 export const ProjectCard = styled.div`
-  background: #fff;
+  background: #E8E7EC;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
