@@ -7,12 +7,13 @@ export const Nav = styled.nav`
   height: 80px;
   ${'' /* margin-top: -80px;  */}
   display: flex;
-  justify-content: center;
+  justify-content: right;
   align-items: center;
   font-size: 1rem;
   position: sticky;
   top: 0;
   z-index: 10;
+  ${'' /* margin: 0 10px */}
 
   @media screen and (max-width: 960px) {
     transition: 0.8s all ease;
@@ -25,7 +26,7 @@ export const NavbarContainer = styled.div`
   height: 80px;
   z-index: 1;
   width: 100%;
-  padding: 0 24px;
+  padding: 0 46px;
   max-width: 1100px;
 `;
 
