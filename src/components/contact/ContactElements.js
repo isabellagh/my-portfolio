@@ -21,30 +21,29 @@ export const ContactWrapper = styled.div`
   max-width: 1000px;
   margin: 0 auto;
   display: flex;
-  ${'' /* grid-template-columns: 1fr 1fr 1fr 1fr; */}
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   justify-content: center;
   align-items: center;
-  ${'' /* grid-gap: 16px; */}
-  ${'' /* padding: 0 50px; */}
+  grid-gap: 16px;
+  padding: 0 50px;
 
-  ${'' /* @media screen and (max-width: 1000px) {
+  @media screen and (max-width: 1000px) {
     grid-template-columns: 1fr 1fr 1fr;
   }
   @media screen and (max-width: 768px) {
     grid-template-columns: 1fr 1fr;
-    ${'' /* padding: 0 10px; */}
-  } */}
+    padding: 0 10px;
 `;
 
 export const ContactCard = styled.div`
   background: #black;
   display: flex;
-  ${"" /* flex-direction: column; */}
+  ${'' /* flex-direction: column; */}
   justify-content: center;
   align-items: center;
   border-radius: 10px;
   max-height: 340px;
-  ${"" /* padding: 0px; */}
+  padding: 10px;
   box-shadow: 0 1px 3px rgba(0,0,0,0.2);
   transition: all 0.2s ease-in-out;
 
