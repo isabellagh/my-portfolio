@@ -5,7 +5,7 @@ import About from "../components/about";
 import Projects from "../components/projects"
 import Skills from "../components/skills"
 // import Experience from "../components/experience"
-// import Contact from "../components/contact"
+import Contact from "../components/contact"
 // import Body from "../components/body";
 // import { homeObjOne } from "../components/body/Data";
 import Footer from "../components/footer";
@@ -26,7 +26,7 @@ const Home = () => {
       <Projects />
       <Skills />
       {/* <Experience /> */}
-      {/* <Contact /> */}
+      <Contact />
       <Footer />
       
     </>
