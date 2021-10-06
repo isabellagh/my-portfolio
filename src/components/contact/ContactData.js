@@ -20,3 +20,4 @@ export const ContactData = [
     icon: require("../../images/icons/linkedin (1).png").default,
   },
 ];
+

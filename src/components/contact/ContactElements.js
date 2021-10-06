@@ -76,8 +76,18 @@ export const ContactsH1 = styled.h1`
 `;
 
 export const SkillsP = styled.p`
-  font-size: 1rem;
+  font-size: 20px;
   text-align: center;
   color: white;
   margin-bottom: 18px;
 `;
+
+export const DownloadButton = styled.div`
+  margin-top: 18px;
+  display: flex;
+  justify-content: flex-start;
+  font-size: 20px;
+  text-decoration: none;
+`;
+
+
