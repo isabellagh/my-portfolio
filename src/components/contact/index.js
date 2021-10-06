@@ -6,13 +6,15 @@ import {
   ContactsImg,
   ContactWrapper,
   ContactCard,
+  SkillsP,
 } from "./ContactElements";
 
 const Contact = () => {
   const data = ContactData;
   return (
     <ContactContainer>
-      <ContactsH1>Chat with Me</ContactsH1>
+      <ContactsH1>Contact</ContactsH1>
+      <SkillsP>Chat with me here or look up my resume.</SkillsP>
       <ContactWrapper>
       <ContactCard>
         {data.map((item) => {
