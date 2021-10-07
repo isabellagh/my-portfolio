@@ -8,10 +8,9 @@ import {
   NavMenu,
   NavItem,
   NavLinks,
-  
 } from "./NavbarElements";
 
-const Navbar = ({toggle}) => {
+const Navbar = ({ toggle }) => {
   return (
     <>
       <Nav>
@@ -29,15 +28,15 @@ const Navbar = ({toggle}) => {
             <NavItem>
               <NavLinks to="projects">Projects</NavLinks>
             </NavItem>
-          
+
             <NavItem>
               <NavLinks to="skills">Skills</NavLinks>
             </NavItem>
-         
+
             {/* <NavItem>
               <NavLinks to="experience">Experience</NavLinks>
             </NavItem> */}
-          
+
             <NavItem>
               <NavLinks to="contact">Contact</NavLinks>
             </NavItem>
