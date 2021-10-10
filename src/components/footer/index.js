@@ -1,14 +1,24 @@
 import React from "react";
-import {FooterContainer, FooterWrapper, FooterLinksContainer, FooterLinksWrapper, FooterLinkItems, FooterLinkTitle, FooterLink} from  './FooterElements'
+import {
+  FooterContainer,
+  FooterWrapper,
+  // FooterLinksContainer,
+  // FooterLinksWrapper,
+  // FooterLinkItems,
+     FooterTitle,
+  // FooterLink,
+} from "./FooterElements";
 
 const Footer = () => {
   return (
     <FooterContainer>
       <FooterWrapper>
-        <FooterLinksContainer>
+      <FooterTitle> © 2021 Isabella Henriques</FooterTitle>
+        
+        {/* <FooterLinksContainer>
           <FooterLinksWrapper>
             <FooterLinkItems>
-              <FooterLinkTitle>About Me</FooterLinkTitle>
+              <FooterLinkTitle> © Isabella Henriques</FooterLinkTitle>
               <FooterLink></FooterLink>
               <FooterLink></FooterLink>Ï
             </FooterLinkItems>
@@ -18,7 +28,7 @@ const Footer = () => {
               <FooterLink></FooterLink>Ï
             </FooterLinkItems>
           </FooterLinksWrapper>
-        </FooterLinksContainer>
+        </FooterLinksContainer> */}
       </FooterWrapper>
     </FooterContainer>
   );
