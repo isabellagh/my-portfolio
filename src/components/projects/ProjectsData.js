@@ -3,7 +3,7 @@ export const ProjectData = [
       id: 1,
       title: "Soccer Star",
       about:
-        "A place where you can add your favorite soccer players and rate them. ",
+        "A place where you can add your favorite soccer players. ",
       tags: ["Ruby", "Ruby on Rails"],
       demo: "",
       github: "https://github.com/isabellagh/soccer_star",
@@ -14,7 +14,7 @@ export const ProjectData = [
     {
       id: 2,
       title: "TCC",
-      about: "A daycare organizer",
+      about: "An application to keep your daycare data organized",
       tags: ["Vanilla JavaScript"],
       demo: "",
       github: "https://github.com/isabellagh/tcc_backend",
@@ -25,7 +25,7 @@ export const ProjectData = [
     {
       id: 3,
       title: "PT Tracker",
-      about: "A Personal Trainer organizer",
+      about: "Here Trainers can add clients and keep track of their data. ",
       tags: ["React", "Redux"],
       demo: "",
       github: "https://github.com/isabellagh/WHR-Calculator",
