@@ -8,7 +8,10 @@ import {
   ProjectsImg,
   ProjectsH2,
   ProjectsP,
+  GithubLink,
+  BtnLink,
 } from "../projects/ProjectElements";
+import { GoMarkGithub } from "react-icons/go";
 
 const Projects = () => {
   const data = ProjectData;
@@ -22,19 +25,15 @@ const Projects = () => {
               <ProjectCard>
                 <ProjectsImg src={project.image} />
                 <ProjectsH2>{project.title}</ProjectsH2>
-                <ProjectsP>
-                  <p>{project.about}</p>
-                </ProjectsP>
-                <div className="project-links">
+                <ProjectsP>{project.about}</ProjectsP>
+                <GithubLink>
                   {project.github && (
-                    <a className="project-link" href={project.github}>
-                      <div className="link-button">
-                        <i class="devicon-github-original colored"></i>{" "}
-                        Repository
-                      </div>
-                    </a>
+                    <BtnLink href={project.github}>
+                      <GoMarkGithub />
+                      Repository
+                    </BtnLink>
                   )}
-                </div>
+                </GithubLink>
               </ProjectCard>
             );
           })}

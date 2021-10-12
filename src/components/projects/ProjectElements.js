@@ -1,7 +1,8 @@
 import styled from "styled-components";
+// import { Link as LinkR } from "react-router-dom";
 
 export const ProjectContainer = styled.div`
-  height: 880px;
+  height: 860px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -49,7 +50,7 @@ export const ProjectCard = styled.div`
   &:hover {
       transform: scale(1.02);
       transition: all 0.2s ease-in-out;
-      cursor: pointer;
+      ${'' /* cursor: pointer; */}
   }
 `
 
@@ -78,6 +79,30 @@ export const ProjectsH2 = styled.h1`
 export const ProjectsP = styled.p`
   font-size: 1rem;
   text-align: center;
+  margin-bottom: 15px;
+`
+
+export const GithubLink = styled.div`
+border-radius: 50px;
+background: #01bf71;
+white-space: nowrap;
+padding: 6px 20px;
+color: #010606;
+font-size: 15px;
+outline: none;
+border: none;
+cursor: pointer;
+transition: all 0.2s ease-in-out;
+
+&:hover {
+  transition: all 0.2s ease-in-out;
+  background: #fff;
+  color: #010606;
+}`;
+
+export const BtnLink = styled.a `
+  text-decoration: none;
+  color: #010606;
 `
 
 // export const BtnWrap = styled.div`
