@@ -9,11 +9,13 @@ import {
   SkillsP,
   DownloadButton,
 } from "./ContactElements";
+import Separator from "../../pages/Separator";
 
 const Contact = () => {
   const data = ContactData;
   return (
     <ContactContainer id="contact">
+      <Separator />
       <ContactsH1>Contact</ContactsH1>
       <SkillsP>Chat with me or look up my resume here</SkillsP>
       <ContactWrapper>

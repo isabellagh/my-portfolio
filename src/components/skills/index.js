@@ -8,11 +8,13 @@ import {
   SkillsH2,
   SkillsP,
 } from "../skills/SkillsElements";
+import Separator from "../../pages/Separator";
 
 const Skills = () => {
   return (
     <>
       <SkillContainer id="skills">
+      <Separator />
         <SkillsH1>Skills</SkillsH1>
         <SkillWrapper>
           <SkillCard>

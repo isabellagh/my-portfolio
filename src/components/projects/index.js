@@ -12,12 +12,14 @@ import {
   BtnLink,
 } from "../projects/ProjectElements";
 import { GoMarkGithub } from "react-icons/go";
+import Separator from "../../pages/Separator";
 
 const Projects = () => {
   const data = ProjectData;
   return (
     <>
       <ProjectContainer id="projects">
+        <Separator />
         <ProjectsH1>Projects</ProjectsH1>
         <ProjectWrapper>
           {data.map((project) => {
