@@ -1,4 +1,5 @@
 import React from "react";
+import { ProjectData } from "../projects/ProjectsData";
 import {
   ProjectContainer,
   ProjectsH1,
@@ -10,44 +11,33 @@ import {
 } from "../projects/ProjectElements";
 
 const Projects = () => {
+  const data = ProjectData;
   return (
     <>
       <ProjectContainer id="projects">
         <ProjectsH1>Projects</ProjectsH1>
         <ProjectWrapper>
-          <ProjectCard>
-            <ProjectsImg
-              src={require("../../../src/images/projects-icons/soccer.png").default}
-            />
-            <ProjectsH2>Soccer Star</ProjectsH2>
-            <ProjectsP>
-              <p>
-                A place where you can add your favorite soccer players and rate
-                them.
-              </p>
-            </ProjectsP>
-          </ProjectCard>
-          <ProjectCard>
-            <ProjectsImg
-              src={require("../../../src/images/projects-icons/kids.png").default}
-            />
-            <ProjectsH2>TCC</ProjectsH2>
-            <ProjectsP>
-              <p>A place for daycare directors to keep track of their classrooms and children.</p>
-            </ProjectsP>
-          </ProjectCard>
-          <ProjectCard>
-            <ProjectsImg
-              src={require("../../../src/images/projects-icons/personal-trainer.png").default}
-            />
-            <ProjectsH2>PT Space</ProjectsH2>
-            <ProjectsP>
-              <p>
-                An app where Personal Trainers can organize their client's info
-                and where to find a trainer.
-              </p>
-            </ProjectsP>
-          </ProjectCard>
+          {data.map((project) => {
+            return (
+              <ProjectCard>
+                <ProjectsImg src={project.image} />
+                <ProjectsH2>{project.title}</ProjectsH2>
+                <ProjectsP>
+                  <p>{project.about}</p>
+                </ProjectsP>
+                <div className="project-links">
+                  {project.github && (
+                    <a className="project-link" href={project.github}>
+                      <div className="link-button">
+                        <i class="devicon-github-original colored"></i>{" "}
+                        Repository
+                      </div>
+                    </a>
+                  )}
+                </div>
+              </ProjectCard>
+            );
+          })}
         </ProjectWrapper>
       </ProjectContainer>
     </>
