@@ -17,7 +17,7 @@ export const SeparatorContainer = styled.div`
     #2b4926
   );
   height: 6px;
-  width: 40%;
+  width: 80%;
   border-radius: 3px;
   margin: 16px 0px;
   
