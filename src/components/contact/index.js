@@ -17,7 +17,7 @@ const Contact = () => {
     <ContactContainer id="contact">
       <Separator />
       <ContactsH1>Contact</ContactsH1>
-      <SkillsP>Chat with me or look up my resume here</SkillsP>
+      <SkillsP>Chat with me or look up my resume here 😉</SkillsP>
       <ContactWrapper>
         <ContactCard>
           {data.map((item) => {
