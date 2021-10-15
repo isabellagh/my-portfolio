@@ -8,6 +8,7 @@ import {
   NavMenu,
   NavItem,
   NavLinks,
+  Alert,
 } from "./NavbarElements";
 
 const Navbar = ({ toggle }) => {
@@ -16,6 +17,7 @@ const Navbar = ({ toggle }) => {
       <Nav>
         <NavbarContainer>
           <NavLogo to="about">Isabella GH</NavLogo>
+          <Alert>! Website under construction !</Alert>
           <MobileIcon onClick={toggle}>
             <FaBars />
           </MobileIcon>
