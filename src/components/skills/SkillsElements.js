@@ -36,9 +36,14 @@ export const SkillWrapper = styled.div`
   @media screen and (max-width: 1000px) {
     grid-template-columns: 1fr 1fr 1fr;
   }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 660px) {
     grid-template-columns: 1fr 1fr;
     padding: 0 10px;
+
+  @media screen and (max-width: 480px) {
+    grid-template-columns: 1fr;
+    padding: 0 10px;
+  }
   }
 `
 
