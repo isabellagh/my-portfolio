@@ -1,5 +1,4 @@
 import React from "react";
-import Video from "../../videos/video.mp4";
 import {
   AboutContainer,
   AboutBg,
@@ -13,7 +12,7 @@ const About = () => {
   return (
     <AboutContainer id="about">
       <AboutBg>
-        <VideoBg autoPlay loop muted src={Video} type="video/mp4" />
+        <VideoBg  src={require("../../videos/pexels-pixabay-220201.jpg").default}/>
       </AboutBg>
       <AboutContent>
         <AboutH1>Isabella Henriques</AboutH1>
