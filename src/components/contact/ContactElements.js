@@ -10,10 +10,10 @@ export const ContactContainer = styled.div`
   padding: 25px 50px 75px 100px;
 
   @media screen and (max-width: 768px) {
-    height: 1100px;
+    height: 800px;
   }
   @media screen and (max-width: 640px) {
-    height: 1300px;
+    height: 800px;
   }
 `;
 
@@ -27,10 +27,10 @@ export const ContactWrapper = styled.div`
   grid-gap: 16px;
   padding: 0 50px;
 
-  @media screen and (max-width: 1000px) {
+  @media screen and (max-width: 768px) {
     grid-template-columns: 1fr 1fr 1fr;
   }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 640px) {
     grid-template-columns: 1fr 1fr;
     padding: 0 10px;
 `;
