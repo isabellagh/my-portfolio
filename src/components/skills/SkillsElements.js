@@ -11,7 +11,7 @@ export const SkillContainer = styled.div`
   @media only screen and (max-device-width: 640px) {
       height: 1100px;
   }
-  @media only screen and (max-device-width: 7680px) {
+  @media only screen and (max-device-width: 768px) {
       height: 1300px;
   }
 `
