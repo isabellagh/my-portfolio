@@ -17,7 +17,7 @@ const Navbar = ({ toggle }) => {
       <Nav>
         <NavbarContainer>
           <NavLogo to="about">Isabella GH</NavLogo>
-          <Alert>! Website under construction !</Alert>
+          <Alert>Website under construction!</Alert>
           <MobileIcon onClick={toggle}>
             <FaBars />
           </MobileIcon>

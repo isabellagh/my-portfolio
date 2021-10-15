@@ -8,10 +8,10 @@ export const SkillContainer = styled.div`
   align-items: center;
   background: #010606;
 
-  @media screen and (max-width: 768px) {
+  @media only screen and (max-device-width: 640px) {
       height: 1100px;
   }
-  @media screen and (max-width: 480px) {
+  @media only screen and (max-device-width: 7680px) {
       height: 1300px;
   }
 `

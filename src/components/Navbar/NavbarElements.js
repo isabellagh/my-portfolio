@@ -91,6 +91,19 @@ export const Alert = styled.h3`
   color: red;
   display: flex;
   align-items: center;
+  margin-right: 20px;
+  font-size: 14px;
+
+
+  @media only screen and (max-device-width: 640px) {
+      height: 100px;
+      width: 180px;
+      font-size: 11px;
+  }
+  @media only screen and (max-device-width: 768px) {
+      height: 100px;
+      width: 180px;
+  }
 `;
 
 // export const NavBtn = styled.nav`
