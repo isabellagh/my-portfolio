@@ -6,6 +6,7 @@ import {
   AboutContent,
   AboutH1,
   AboutP,
+  AboutBtnLink,
 } from "./AboutElements";
 
 const About = () => {
@@ -19,6 +20,7 @@ const About = () => {
         <AboutP>
           Put all your effort on running your business while I help you growing It.<br />
         </AboutP>
+        <AboutBtnLink to="contact">Get started</AboutBtnLink>
       </AboutContent>
     </AboutContainer>
   );
