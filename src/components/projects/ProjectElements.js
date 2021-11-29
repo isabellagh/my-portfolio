@@ -2,7 +2,7 @@ import styled from "styled-components";
 // import { Link as LinkR } from "react-router-dom";
 
 export const ProjectContainer = styled.div`
-  height: 700px;
+  height: 850px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -32,7 +32,7 @@ export const ProjectWrapper = styled.div`
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
   grid-gap: 16px;
-  padding: 0 50px;
+  padding: 0 70px;
   
   @media screen and (max-width: 1000px) {
     grid-template-columns: 1fr 1fr;

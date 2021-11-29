@@ -33,15 +33,20 @@ export const NavLogo = styled(LinkS)`
   color: #01bf71;
   justify-self: flex-start;
   cursor: pointer;
-  font-size: 1.8rem;
+  font-size: 1.7rem;
   display: flex;
   align-items: center;
-  margin-left: 24px;
+  margin-left: 10px;
   font-weight: bold;
   text-decoration: none;
 
   &:hover {
     color: #79DD82;
+  }
+
+  @media only screen and (max-device-width: 640px) {
+    font-size: 1.2rem;
+    margin-top: 15px;
   }
 `;
 
