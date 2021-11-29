@@ -51,6 +51,7 @@ export const VideoBg = styled.img`
 export const AboutContent = styled.div`
   z-index: 3;
   max-width: 1200px;
+  max-height: 40px;
   position: absolute;
   padding: 8px 24px;
   display: flex;
@@ -60,7 +61,7 @@ export const AboutContent = styled.div`
 
 export const AboutH1 = styled.h1`
   color: #fff;
-  font-size: 48px;
+  font-size: 40px;
   text-align: center;
 
   @media screen and (max-width: 768px) {
@@ -99,10 +100,11 @@ export const AboutBtnLink = styled(LinkS)`
   cursor: pointer;
   transition: all 0.2s ease-in-out;
   text-decoration: none;
+  margin-top: 20px;
 
   &:hover {
     transition: all 0.2s ease-in-out;
-    background: #fff;
+    background: #CCF0D0;
     color: #010606;
   }
 `;
