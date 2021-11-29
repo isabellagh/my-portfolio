@@ -3,17 +3,16 @@ import styled from "styled-components";
 import { Link as LinkS } from "react-scroll";
 
 export const Nav = styled.nav`
-  background: #000;
-  height: 80px;
-  ${'' /* margin-top: -80px;  */}
-  display: flex;
+  ${"" /* background: #000; */}
+  background-image: linear-gradient(to right top, #2e3438, #262d30, #1e2728, #182020, #121a18, #0f1a18, #0c1917, #081917, #091d20, #0c2129, #152432, #232638);  display: flex;
+  height: 60px;
   justify-content: right;
   align-items: center;
   font-size: 1rem;
   position: sticky;
   top: 0;
   z-index: 10;
-  ${'' /* margin: 0 10px */}
+  ${"" /* margin: 0 10px */}
 
   @media screen and (max-width: 960px) {
     transition: 0.8s all ease;
@@ -40,6 +39,10 @@ export const NavLogo = styled(LinkS)`
   margin-left: 24px;
   font-weight: bold;
   text-decoration: none;
+
+  &:hover {
+    color: #79DD82;
+  }
 `;
 
 export const MobileIcon = styled.div`
@@ -82,8 +85,8 @@ export const NavLinks = styled(LinkS)`
   height: 100%;
   cursor: pointer;
 
-  &.active {
-    border-bottom: 3px solid #01bf71;
+  &:hover {
+    color: #28B251;
   }
 `;
 
@@ -94,15 +97,14 @@ export const Alert = styled.h3`
   margin-right: 20px;
   font-size: 14px;
 
-
   @media only screen and (max-device-width: 640px) {
-      height: 100px;
-      width: 180px;
-      font-size: 11px;
+    height: 100px;
+    width: 180px;
+    font-size: 11px;
   }
   @media only screen and (max-device-width: 768px) {
-      height: 100px;
-      width: 180px;
+    height: 100px;
+    width: 180px;
   }
 `;
 

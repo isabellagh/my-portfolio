@@ -15,14 +15,9 @@ const About = () => {
         <VideoBg  src={require("../../videos/pexels-pixabay-220201.jpg").default}/>
       </AboutBg>
       <AboutContent>
-        <AboutH1>Isabella Henriques</AboutH1>
+        <AboutH1>It is time to globalize your business!</AboutH1>
         <AboutP>
-          Hello World, I am Isabella, currently working as a freelance Software
-          Engineer. I am a former Personal Trainer, soccer coach, and teacher.
-          Changing career to Software Engineering was not easy but definitely
-          pleasant. I love staying alone with my computer just envisioning,
-          creating my mini-projects, fixing the bugs I have created, and
-          thinking about ways of helping people through technology.{" "}
+          Put all your effort on running your business while I help you growing It.<br />
         </AboutP>
       </AboutContent>
     </AboutContainer>
