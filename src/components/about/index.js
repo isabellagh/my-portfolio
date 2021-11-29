@@ -16,9 +16,9 @@ const About = () => {
         <VideoBg  src={require("../../videos/pexels-pixabay-220201.jpg").default}/>
       </AboutBg>
       <AboutContent>
-        <AboutH1>It is time to globalize your business!</AboutH1>
+        <AboutH1 data-text= "Hello World!">Hello World!</AboutH1>
         <AboutP>
-          Put all your effort on running your business while I help you growing It.<br />
+          I am Isabella Henriques, Web Developer.<br />
         </AboutP>
         <AboutBtnLink to="contact">Get started</AboutBtnLink>
       </AboutContent>
@@ -27,3 +27,10 @@ const About = () => {
 };
 
 export default About;
+
+
+// <AboutH1>It is time to globalize your business!</AboutH1>
+// <AboutP>
+//   Put all your effort on running your business while I help you growing It.<br />
+// </AboutP>
+// <AboutBtnLink to="contact">Get started</AboutBtnLink>

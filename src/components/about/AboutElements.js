@@ -60,9 +60,38 @@ export const AboutContent = styled.div`
 `;
 
 export const AboutH1 = styled.h1`
-  color: #fff;
+  ${'' /* color: #fff; */}
+  color: #252839;
   font-size: 40px;
   text-align: center;
+  position: relative;
+  -webkit-text-stroke: 0.3vw #383d52;
+  text-transform: uppercase;
+
+  ::before {
+    content:attr(data-text);
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    color: #01bf71;
+    -webkit-text-stroke: 0vw #383d52;
+    border-right: 2px solid #01bf71;
+    overflow: hidden;
+    animation: animate 6s linear infinite;
+  }
+
+  @keyframes animate {
+    0%, 10%, 100%
+    {
+      width: 0;
+    }
+    70%,90%
+    {
+      width:100%
+    }
+  }
 
   @media screen and (max-width: 768px) {
     font-size: 40px;
@@ -76,7 +105,7 @@ export const AboutH1 = styled.h1`
 export const AboutP = styled.p`
   margin-top: 24px;
   color: #fff;
-  font-size: 18px;
+  font-size: 20px;
   text-align: center;
   max-width: 600px;
 
