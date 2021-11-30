@@ -18,9 +18,9 @@ const About = () => {
       <AboutContent>
         <AboutH1 data-text= "Hello World!">Hello World!</AboutH1>
         <AboutP>
-          I am Isabella Henriques, Web Developer.<br />
+          I am Isabella Henriques, Web Developer.<br /> Are you running a business and need <br />help showing it to the world?<br /> I can help you!
         </AboutP>
-        <AboutBtnLink to="contact">Get started</AboutBtnLink>
+        <AboutBtnLink to="contact">Get Started</AboutBtnLink>
       </AboutContent>
     </AboutContainer>
   );

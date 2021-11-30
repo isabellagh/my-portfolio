@@ -104,8 +104,8 @@ export const AboutH1 = styled.h1`
 
 export const AboutP = styled.p`
   margin-top: 24px;
-  color: #fff;
-  font-size: 20px;
+  color: #CECEEC;
+  font-size: 22px;
   text-align: center;
   max-width: 600px;
 
