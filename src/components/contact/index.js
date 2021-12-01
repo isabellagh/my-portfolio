@@ -10,14 +10,15 @@ import {
   DownloadButton,
 } from "./ContactElements";
 import Separator from "../../pages/Separator";
+import FormContact from "./FormContact";
 
 const Contact = () => {
   const data = ContactData;
   return (
     <ContactContainer id="contact">
       <Separator />
-      <ContactsH1>Contact</ContactsH1>
-      <SkillsP>Chat with me or look up my resume here 😉</SkillsP>
+      {/* {/* <ContactsH2>Contact Me</ContactsH2> */}
+      {/* <SkillsP>Chat with me or look up my resume here 😉</SkillsP>
       <ContactWrapper>
         <ContactCard>
           {data.map((item) => {
@@ -38,7 +39,8 @@ const Contact = () => {
           <i class="fi-rr-cloud-download-icon" />
           Download Resume
         </a>
-      </DownloadButton>
+      </DownloadButton> */}
+      <FormContact /> 
     </ContactContainer>
   );
 };
