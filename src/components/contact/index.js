@@ -2,7 +2,7 @@ import React from "react";
 import { ContactData } from "./ContactData";
 import {
   ContactContainer,
-  ContactsH1,
+  ContactsH2,
   ContactsImg,
   ContactWrapper,
   ContactCard,
@@ -13,11 +13,10 @@ import Separator from "../../pages/Separator";
 import FormContact from "./FormContact";
 
 const Contact = () => {
-  const data = ContactData;
+  // const data = ContactData;
   return (
     <ContactContainer id="contact">
-      <Separator />
-      {/* {/* <ContactsH2>Contact Me</ContactsH2> */}
+      <Separator/>
       {/* <SkillsP>Chat with me or look up my resume here 😉</SkillsP>
       <ContactWrapper>
         <ContactCard>

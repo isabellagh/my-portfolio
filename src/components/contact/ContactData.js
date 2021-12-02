@@ -1,5 +1,10 @@
 export const ContactData = [
   {
+    platform: "Linkedin",
+    link: "https://www.linkedin.com/in/isabella-henriques-4799662a/",
+    icon: require("../../images/icons/linkedin (1).png").default,
+  },
+  {
     platform: "Github",
     link: "https://github.com/isabellagh",
     icon: require("../../images/icons/github (5).png").default,
@@ -13,11 +18,6 @@ export const ContactData = [
     platform: "Twitter",
     link: "https://twitter.com/Isagonsilveir",
     icon: require("../../images/icons/twitter (1).png").default,
-  },
-  {
-    platform: "Linkedin",
-    link: "https://www.linkedin.com/in/isabella-henriques-4799662a/",
-    icon: require("../../images/icons/linkedin (1).png").default,
   },
 ];
 

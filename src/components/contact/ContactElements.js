@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const ContactContainer = styled.div`
-  height: 700px;
+  height: 950px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -13,7 +13,7 @@ export const ContactContainer = styled.div`
     height: 800px;
   }
   @media screen and (max-width: 640px) {
-    height: 800px;
+    height: 1100px;
   }
 `;
 
@@ -33,38 +33,39 @@ export const ContactWrapper = styled.div`
   @media screen and (max-width: 640px) {
     grid-template-columns: 1fr 1fr;
     padding: 0 10px;
+  }
 `;
 
 export const ContactCard = styled.div`
-  background: #black;
+  
   display: flex;
-  ${"" /* flex-direction: column; */}
+  ${'' /* flex-direction: column; */}
   justify-content: center;
   align-items: center;
-  border-radius: 10px;
   max-height: 340px;
   padding: 10px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
-  transition: all 0.2s ease-in-out;
+  
 
-  &:hover {
-    transform: scale(1.02);
-    transition: all 0.2s ease-in-out;
-    cursor: pointer;
-  }
+  
 `;
 
 export const ContactsImg = styled.img`
   display: flex;
   ${"" /* justify-content: center; */}
   ${"" /* align-items: center; */}
-  height: 50px;
-  width: 50px;
+  height: 40px;
+  width: 45px;
   ${"" /* margin-bottom: 10px; */}
   padding: 0 3px;
+
+  &:hover {
+    transform: scale(1.10);
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+  }
 `;
 
-export const ContactsH1 = styled.h1`
+export const ContactsH2 = styled.h1`
   font-size: 2.5rem;
   color: #fff;
   margin-top: 64px;
@@ -85,9 +86,10 @@ export const SkillsP = styled.p`
 export const DownloadButton = styled.div`
   margin-top: 18px;
   display: flex;
-  justify-content: flex-start;
-  font-size: 20px;
-  text-decoration: none;
+  justify-content: center;
+  
+  ${'' /* font-size: 17px;
+  textDecoration: none; */}
 `;
 
 

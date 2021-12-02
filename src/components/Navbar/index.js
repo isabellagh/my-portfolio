@@ -8,7 +8,6 @@ import {
   NavMenu,
   NavItem,
   NavLinks,
-  Alert,
 } from "./NavbarElements";
 
 const Navbar = ({ toggle }) => {

@@ -1,0 +1,120 @@
+.main-form {
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 70vh;
+  width: 35vw;
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(8.5px);
+  border-radius: 10px;
+  color: #ffffff;
+  letter-spacing: 0.4rem;
+  max-width: 700px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  height: 40%;
+  width: 80%;
+}
+
+.form-h1 {
+  margin: 2rem 0 2rem 0;
+}
+
+.form {
+  margin: 25px 85px 75px 100px;
+}
+
+.form-label {
+  margin-top: 20px;
+  font-weight: 400;
+  color: #c4c7e6;
+}
+
+.form-input {
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  border-radius: 2rem;
+  width: 80%;
+  height: 2rem;
+  padding: 1rem;
+  border: none;
+  outline: none;
+  color: #3c354e;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.form-textarea {
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  border-radius: 1.5rem;
+  width: 80%;
+  height: 8rem;
+  padding: 1rem;
+  border: none;
+  outline: none;
+  color: #3c354e;
+  font-weight: bold;
+  min-height: 100px;
+  resize: none;
+  margin-top: 20px;
+}
+
+form-textarea::placeholder {
+  color: #8685a899;
+  font-weight: 90;
+  font-size: 1rem;
+}
+
+.form-btn {
+  display: block;
+  background-color: #01bf71;
+  color: #0f0f10;
+  font-size: 18px;
+  border: 0;
+  border-radius: 1.5rem;
+  height: 40px;
+  width: 80%;
+  padding: 0 20px;
+  cursor: pointer;
+  box-sizing: border-box;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+form-btn:hover {
+  transition: all 0.2s ease-in-out;
+  background: #ccf0d0;
+  color: #010606;
+}
+
+.horizontal-rule {
+  background-image: linear-gradient(
+    to right top,
+    #78a4cf,
+    #55b5da,
+    #2bc5d9,
+    #28d3ca,
+    #5adeb0,
+    #6ad398,
+    #77c882,
+    #83bd6d,
+    #6b9e5a,
+    #548148,
+    #3f6437,
+    #2b4926
+  );
+  height: 6px;
+  width: 80%;
+  border-radius: 3px;
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
