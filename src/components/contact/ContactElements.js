@@ -37,29 +37,22 @@ export const ContactWrapper = styled.div`
 `;
 
 export const ContactCard = styled.div`
-  
   display: flex;
-  ${'' /* flex-direction: column; */}
   justify-content: center;
   align-items: center;
   max-height: 340px;
   padding: 10px;
-  
-
-  
 `;
 
 export const ContactsImg = styled.img`
   display: flex;
-  ${"" /* justify-content: center; */}
-  ${"" /* align-items: center; */}
+
   height: 40px;
   width: 45px;
-  ${"" /* margin-bottom: 10px; */}
   padding: 0 3px;
 
   &:hover {
-    transform: scale(1.10);
+    transform: scale(1.1);
     transition: all 0.2s ease-in-out;
     cursor: pointer;
   }
@@ -83,13 +76,25 @@ export const SkillsP = styled.p`
   margin-bottom: 18px;
 `;
 
-export const DownloadButton = styled.div`
-  margin-top: 18px;
-  display: flex;
-  justify-content: center;
-  
-  ${'' /* font-size: 17px;
-  textDecoration: none; */}
+export const DownloadButton = styled.button`
+  display: block;
+  background-color: #01bf71;
+  color: #0f0f10;
+  font-size: 16px;
+  border: 0;
+  border-radius: 1.5rem;
+  height: 30px;
+  width: 40%;
+  padding: 0 20px;
+  cursor: pointer;
+  box-sizing: border-box;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  &:hover {
+    transition: all 0.2s ease-in-out;
+    background: #ccf0d0;
+    color: #010606;
+    text-decoration: none;
+  }
 `;
-
-
