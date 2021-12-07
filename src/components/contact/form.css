@@ -118,3 +118,13 @@ form-btn:hover {
   margin-top: 25px;
   margin-bottom: 30px;
 }
+
+.success {
+  font-size: small;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  color: #01bf71;
+  font-family: Arial, Helvetica, sans-serif;
+}

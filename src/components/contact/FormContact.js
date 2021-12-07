@@ -1,4 +1,5 @@
 import emailjs from "emailjs-com";
+import React, { useState } from "react";
 import { ContactData } from "./ContactData";
 import {
   ContactsImg,
@@ -10,6 +11,12 @@ import "./form.css";
 import { StyledButton } from "./FormElements";
 
 const FormContact = () => {
+  const [success, showSuccess] = useState(false);
+
+  const Success = () => {
+    return <p >Successfully sent! I will be contacting you soon.</p>;
+  };
+
   function sendEmail(e) {
     e.preventDefault();
 
@@ -20,11 +27,18 @@ const FormContact = () => {
         e.target,
         "user_JuGWjeEUe1hyj7SyeArz5"
       )
-      .then((res) => {
-        console.log(res);
+      .then((success) => {
+        console.log(success);
       })
       .catch((err) => console.log(err));
+    e.target.reset();
+    showSuccess(true);
   }
+
+  //hide success message
+  setTimeout(() => {
+      showSuccess(false)
+  }, 5000)
 
   const data = ContactData;
 
@@ -61,6 +75,7 @@ const FormContact = () => {
           type="submit"
           value="Send"
         />
+        <div className="success">{success ? <Success /> : null}</div>
       </form>
       <hr className="horizontal-rule" />
       <h5>Let's connect</h5>
